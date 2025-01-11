@@ -1,8 +1,8 @@
 [package]
-name = "bevy_game"                               # TODO
+name = "bevy_game"                               # TODO:
 version = "0.1.0"
 publish = false
-authors = ["Niklas Eicker <git@nikl.me>"]        # TODO
+authors = ["Niklas Eicker <git@nikl.me>"]        # TODO:
 edition = "2021"
 exclude = ["dist", "build", "assets", "credits"]
 

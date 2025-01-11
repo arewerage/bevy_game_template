@@ -1,7 +1,7 @@
 use bevy::prelude::*;
 use bevy::window::WindowMode;
 use bevy::winit::WinitSettings;
-use bevy_game::GamePlugin; // TODO
+use bevy_game::GamePlugin; // TODO:
 
 #[bevy_main]
 fn main() {

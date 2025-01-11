@@ -9,7 +9,7 @@ name = "mobile"
 crate-type = ["staticlib", "cdylib"]
 
 [dependencies]
-bevy_game = { path = ".." } # TODO
+bevy_game = { path = ".." } # TODO:
 bevy = { version = "0.15", default-features = false, features = [
     "android-native-activity",
 ] }
@@ -21,8 +21,8 @@ bevy = { version = "0.15", default-features = false, features = [
 ] }
 
 [package.metadata.android]
-package = "me.nikl.bevygame"              # TODO
-apk_name = "BevyGame"                     # TODO same as GAME_OSX_APP_NAME in release workflow
+package = "me.nikl.bevygame"              # TODO:
+apk_name = "BevyGame"                     # TODO: same as GAME_OSX_APP_NAME in release workflow
 assets = "../assets"
 strip = "strip"
 resources = "../build/android/res"
@@ -33,4 +33,4 @@ target_sdk_version = 33
 
 [package.metadata.android.application]
 icon = "@mipmap/icon"
-label = "Bevy Game"   # TODO
+label = "Bevy Game"   # TODO:

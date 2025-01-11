@@ -5,7 +5,7 @@ use bevy::prelude::*;
 use bevy::window::PrimaryWindow;
 use bevy::winit::WinitWindows;
 use bevy::DefaultPlugins;
-use bevy_game::GamePlugin; // TODO
+use bevy_game::GamePlugin; // TODO:
 use std::io::Cursor;
 use winit::window::Icon;
 
@@ -16,7 +16,7 @@ fn main() {
             DefaultPlugins
                 .set(WindowPlugin {
                     primary_window: Some(Window {
-                        title: "Bevy game".to_string(), // TODO
+                        title: "Bevy game".to_string(), // TODO:
                         canvas: Some("#bevy".to_owned()),
                         fit_canvas_to_parent: true,
                         prevent_default_event_handling: false,

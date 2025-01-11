@@ -1,3 +1,4 @@
+#![allow(clippy::type_complexity)]
 mod actions;
 mod audio;
 mod loading;

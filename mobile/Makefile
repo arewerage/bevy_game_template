@@ -6,7 +6,7 @@ ifndef DEVICE_ID
 endif
 
 run: install
-    # Todo: change the bundle identifier (then remove this comment :P)
+    # TODO: change the bundle identifier (then remove this comment :P)
 	xcrun simctl launch --console $(DEVICE) me.nikl.bevygame
 
 boot-sim:
